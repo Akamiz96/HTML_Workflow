@@ -1,0 +1,64 @@
+.menu{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(red,orange,yellow,black);
+    background-size: cover;
+    z-index: 100;
+    top: 0px;
+
+}
+.menu h1{
+    font-family: 'Uncial Antiqua', cursive;
+    font-size:200%;
+}
+
+.menu_options{
+    text-align: center;
+}
+
+#menu_table_options{
+    margin: 0 auto;
+}
+
+#menu_table_options td{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 150%
+}
+
+#menu_table_options tr{
+    background-color: rgba(0,0,0,0);
+}
+.menu_option{
+  color: white;
+}
+.menu_option:hover{
+    color: red;
+}
+
+h1{
+    text-decoration: underline;
+    text-decoration-color: lightseagreen ;
+}
+table {
+    text-align: center;
+}
+table thead{
+    background-color:white;
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+}
+
+table tbody tr:nth-child(odd) {
+	color: black;
+    background-color:green;
+
+}
+
+table tbody tr:nth-child(even) {
+	color: black;
+    background-color:white;
+}

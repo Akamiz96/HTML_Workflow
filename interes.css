@@ -1,0 +1,73 @@
+.interes{
+    position: relative;
+    margin-top: 8%;
+}
+
+.interes h1{
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 400%;
+  text-decoration: underline;
+  text-decoration-color:lightgrey;
+}
+
+.interes p{
+    text-align: justify;
+}
+
+.interes h2{
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 150%;
+}
+
+.interes h3{
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.indice{
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+  font-size: 150%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  border-style: solid;
+}
+.videos{
+  border-radius: 10px;
+  border-style: solid;
+  background: linear-gradient(to bottom, orange, white, red);
+}
+#contenedor_videos {
+  width:100% ;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 30%;
+}
+
+#video_1,#video_2 {
+  width:50%;
+  float:left;
+}
+
+.enlaces{
+  border-radius: 10px;
+  border-style: solid;
+  background: linear-gradient(to bottom, white, lightgreen, green);
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 2%
+}
+
+.enlaces a{
+  font-family: 'Indie Flower', cursive;
+  font-size: 130%;
+  color: black;
+}

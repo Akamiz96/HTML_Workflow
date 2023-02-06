@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta name="robots" content="INDEX">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="Last-Modified" content="0">
+        <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+        <title>Alejandro Castro M.</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="stylesheet" type="text/css" href="interes.css">
+        <script type="text/javascript" src="mouseActions.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+      <div class="menu">
+          <h1>Alejandro Castro Martínez</h1>
+          <div class="menu_options">
+              <table id="menu_table_options">
+                  <tbody>
+                      <tr>
+                          <td><a href="bienvenida.html" class="menu_option">Bienvenida</a></td>
+                          <td><a href="biografia.html" class="menu_option">Biografía</a></td>
+                          <td><a href="experiencialaboral.html" class="menu_option">Experiencia Laboral</a></td>
+                          <td><a href="interes.html" class="menu_option">Material de interés</a></td>
+                          <td><a href="chat.html" class="menu_option">Chat en vivo</a></td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+
+      <div class="interes">
+        <h1 onmouseover="changebackground(this)" onmouseout="returnBackground(this)">Material de interés</h1>
+        <div class="indice" onmouseover="changebackground(this)" onmouseout="returnBackground(this)">
+          <h2> Índice</h2>
+          <ul>
+              <li><a href="#videos">Videos</a></li>
+              <li><a href="#enlaces">Enlaces de interés</a></li>
+              <li><a href="#imagenes">Imágenes</a></li>
+            </ul>
+        </div>
+
+        <div class="videos" onmouseover="changebackground(this)" onmouseout="returnBackground(this)">
+          <h2 id="videos">Videos</h2>
+          <h3>Canciones favoritas</h3>
+          <div id="contenedor_videos">
+            <div id="video_1">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FoShM78MoWM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="video_2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/CVO8gjn3dFg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="enlaces" onmouseover="changebackground(this)" onmouseout="returnBackground(this)">
+          <h2 id="enlaces">Enlaces de interés</h2>
+          <h3>Proyecto Processing</h3>
+          <a href="https://processing.org/">Processing</a>
+          <h3>Banda favorita</h3>
+          <a href="https://www.thirtysecondstomars.com/">30 Seconds To Mars</a>
+        </div>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+.bienvenida{
+    position: relative;
+    margin-top: 8%;
+}
+
+.texto_bienvenida{
+  text-align: center;
+  font-family: 'Pacifico';
+  font-size: 30px;
+}
+
+.gracias_bienvenida{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.bienvenida h1{
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 400%;
+  text-decoration: underline;
+  text-decoration-color:lightgrey;
+}
+
+.bienvenida p{
+    text-align: justify;
+}
+.imagen_bienvenida{
+  margin-top: 5%;
+  width: 60%;
+  height: 60%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: medium;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 0 0 50px #444444;
+}
+
+.cite{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 150%;
+}
+
+.topic{
+  margin-top: 2%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 120%;
+  text-align: justify;
+}
+
+.ref_topic{
+  text-decoration: underline;
+  color: inherit;
+}
+
+.cite_text{
+  border-top:solid 1px grey;
+  border-bottom:solid 1px grey;
+  border-radius: 5%;
+  font-family: 'Dancing Script', cursive;
+  text-align: justify;
+  font-size: 150%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.cite_text h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 125%
+}
+.cite_text h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 125%;
+  text-align: left;
+}
+
+.image_cite_text{
+  margin: 2%;
+  float: left;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 0 0 30px #444444;
+}

@@ -1,0 +1,31 @@
+.biografia{
+    position: relative;
+    margin-top: 8%;
+}
+
+.biografia h1{
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 400%;
+  text-decoration: underline;
+  text-decoration-color:lightgrey;
+}
+
+.table_biografia{
+    margin: 0 auto;
+    font-size: 150%;
+    font-family: 'Pacifico';
+}
+
+.topic{
+  margin-top: 0%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  text-align: justify;
+}
+.resumen_biografia{
+  margin-top: 0%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 190%;
+  text-align: center;
+}

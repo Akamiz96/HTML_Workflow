@@ -1,0 +1,50 @@
+.chat_en_vivo{
+    position: relative;
+    margin-top: 8%;
+    width: 100%;
+}
+.chat_en_vivo h1{
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 400%;
+  text-decoration: underline;
+  text-decoration-color:lightgrey;
+}
+
+.formulario{
+  text-align: center;
+  margin-left:5%;
+  margin-right: 5%;
+  border-style: dotted;
+  border-radius: 10px;
+  padding-left: 2%;
+  padding-right: 2%
+}
+
+input{
+  height: 5%;
+  text-align: center;
+  width: 100%;
+}
+.chat{
+  text-align: center;
+}
+
+.entrada{
+  border-style: solid;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  background: linear-gradient(to right, orange, white, orange);
+}
+
+.nombre{
+  font-family: 'Indie Flower', cursive;
+  font-size: 150%
+}
+
+.texto{
+  font-family: 'Dancing Script', cursive;
+  font-size: 125%;
+}
