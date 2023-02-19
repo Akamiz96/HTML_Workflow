@@ -4,7 +4,7 @@
 name: Node.js CI for Deploy environment
 
 on:
-  commit:
+  push:
     branches: [ "main" ]
 
 jobs:
