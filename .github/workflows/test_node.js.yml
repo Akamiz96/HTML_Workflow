@@ -28,4 +28,4 @@ jobs:
     - run: npm run build --if-present
 #   - run: npm test
     - name: Invoke deployment hook
-      run: wget ${{ secrets.WEBHOOK_URL }}
+      run: wget ${{ secrets.WEBHOOK_URL_TESTING }}
