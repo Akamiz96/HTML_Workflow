@@ -1,0 +1,76 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@cmrfabian 
+Akamiz96
+/
+HTML_Workflow
+Public
+Fork your own copy of Akamiz96/HTML_Workflow
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+HTML_Workflow/.github/workflows/test_node.js.yml
+@Akamiz96
+Akamiz96 change names of workflow inside file name tag
+Latest commit 69157ed last week
+ History
+ 1 contributor
+31 lines (25 sloc)  921 Bytes
+
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Node.js CI for Test environment
+
+on:
+  push:
+    branches: [ "testing" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build --if-present
+#   - run: npm test
+    - name: Invoke deployment hook
+      run: wget ${{ secrets.WEBHOOK_URL_TESTING }}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+HTML_Workflow/test_node.js.yml at main · Akamiz96/HTML_Workflow
