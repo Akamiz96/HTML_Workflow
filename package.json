@@ -4,7 +4,7 @@
   "description": "Static web page to test the process of creating a workflow with GitHub Actions\r CI/CD with GitHubActions.",
   "main": "app.js",
   "scripts": {
-    "test": "jtest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Akamiz96/HTML_Workflow#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "jtest": "^27.4.3"
+    "jest": "^27.4.3"
   }
 }
